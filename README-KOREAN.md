@@ -51,6 +51,8 @@
 
 `fetch.yml` 파일 내부에서 언어 설정 및 스케줄 시간을 설정하실 수 있습니다. 기본값은 `1시간` 단위로 되어있습니다.
 
+# 결과
+<img src="https://github.com/froggydisk/froggydisk.github.io/blob/master/assets/img/discord-noti.png?raw=true" width="600">  
 
 # 참조
 
