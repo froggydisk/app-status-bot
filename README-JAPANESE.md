@@ -14,7 +14,7 @@
 ## 1. APIの発行
 `Key ID`を得るために[App Store Connect](https://appstoreconnect.apple.com/)に接続します。
 
-1. 'ユーザとアクセス'をクリックし、 'キー'のタブをクリックします。 
+1. `ユーザとアクセス`をクリックし、 `キー`のタブをクリックします。 
 2.  新しいAPIキーを発行します。
 3. `キー ID` をコピーしておきます。
 4. `Issuer ID` もコピーしておきます。
@@ -25,8 +25,8 @@
 8. `GitHub token`を発行します。
 9. アプリの情報を保存する`Gist url`をコピーしておきます。
 10. このリポジトリを'Fork'します。
-11. リポジトリの'Settings'メニューから'Secrets'を設定します。
-12. リポジトリの'Actions'メニューからworkflowを動かします。
+11. リポジトリの`Settings`メニューから`Secrets`を設定します。
+12. リポジトリの`Actions`メニューからworkflowを動かします。
 
 
 ## 2. Secretsの設定
