@@ -1,5 +1,5 @@
-[한국어로 보기](./README-KOREAN.md)  
-[English Document](./README.md)
+🇰🇷[한국어](./README-KOREAN.md)  
+🇺🇸[English](./README.md)
 
 # 初めに
 `app-status-bot`はアプリの審査状態を`Discord`で知らせてくれるボットです。アプリの審査状態をチームメンバーと共有することができます。GitHub-ActionsとGitHub-Gistを使い、fastlaneの[Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship)ライブラリを用いてます。ご利用の時はこのリポジトリをただ`Fork`すればオッケーです。
@@ -45,7 +45,7 @@
 > GIST_ID: Gistファイルを作成し、 urlに入っている`キー`をコピーして入力します。  
   - 例) https://gist.github.com/froggydisk/[GIST_ID]
 
-## 3. インターバル設定
+## 3. インターバルの設定
 
 - [fetch.yml](./.github/workflows/fetch.yml) 
 
@@ -54,7 +54,7 @@
 
 # 参照
 
-[Fernando](https://fernando.kr/ios/2020-11-08-ios-appstore-status-bot/)を主に参考しました。
+[Fernando](https://fernando.kr/ios/2020-11-08-ios-appstore-status-bot/)ブログを主に参考しました。
 - [appstore-status-bot](https://github.com/techinpark/appstore-status-bot)
 - [Appstore Connect API](https://developer.apple.com/documentation/appstoreconnectapi)  
 - [fastlane Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship)  
