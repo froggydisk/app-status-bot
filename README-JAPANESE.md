@@ -2,7 +2,7 @@
 [English Document](./README.md)
 
 # 初めに
-`app-status-botはアプリの審査状態をDiscordで知らせてくれるボットです。アプリの審査状態をチームメンバーと共有することができます。   `GitHub-Actions`と`GitHub-Gist` を使い、 fastlaneの [Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship) ライブラリを用いてます。ご利用の時はこのリポジトリをただ `Fork` すればオッケーです。
+`app-status-bot`はアプリの審査状態をDiscordで知らせてくれるボットです。アプリの審査状態をチームメンバーと共有することができます。   `GitHub-Actions`と`GitHub-Gist` を使い、 fastlaneの [Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship) ライブラリを用いてます。ご利用の時はこのリポジトリをただ `Fork` すればオッケーです。
 
 
 # 機能
