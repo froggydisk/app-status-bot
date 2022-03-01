@@ -51,7 +51,7 @@
 `fetch.yml` で言語設定、スケジュールの設定が可能です。インターバルは基本 `1時間`になってます。
 
 
-#結果
+#　結果
 <img src="https://github.com/froggydisk/froggydisk.github.io/blob/master/assets/img/discord-noti.png?raw=true" width="600">  
 
 
