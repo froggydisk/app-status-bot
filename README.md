@@ -1,10 +1,8 @@
-[한국어로 보기](./README-KOREAN.md)  
-[日本語で読む](./README-JAPANESE.md)
+🇰🇷[한국어](./README-KOREAN.md) 🇯🇵[日本語](./README-JAPANESE.md)
 
 # Introduction
 This is a simple bot that fetches your `app status` directly from Appstore Connect and post changes on `Discord` by using GitHub-Actions and GitHub-Gist, with the help of fastlane [Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship).
 Just `FORK` this repository for easy use.
-
 
 # Features
 - Fetch app status using Appstore Connect API 
@@ -47,7 +45,7 @@ To get your Key ID, copy it from App Store Connect by logging in to [App Store C
   - e.g. https://gist.github.com/froggydisk/[GIST_ID]
 
 
-## 3. Configure fetch timing or language
+## 3. Configure fetch timing
 
 - [fetch.yml](./.github/workflows/fetch.yml) 
 
@@ -66,4 +64,4 @@ mainly from Fernando's blog
 
 
 # Contribution 
-- Feel free to contribution for this project. 
+- Feel free to contribute for this project. 
