@@ -2,17 +2,17 @@
 [English Document](./README.md)
 
 # 初めに
-`app-status-bot`はアプリの審査状態をDiscordで知らせてくれるボットです。アプリの審査状態をチームメンバーと共有することができます。   `GitHub-Actions`と`GitHub-Gist` を使い、 fastlaneの [Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship) ライブラリを用いてます。ご利用の時はこのリポジトリをただ `Fork` すればオッケーです。
+`app-status-bot`はアプリの審査状態を`Discord`で知らせてくれるボットです。アプリの審査状態をチームメンバーと共有することができます。   GitHub-ActionsとGitHub-Gistを使い、 fastlaneの[Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship) ライブラリを用いてます。ご利用の時はこのリポジトリをただ `Fork` すればオッケーです。
 
 
 # 機能
-- `AppStore Connect API`を使ってアプリの情報を読み込みます。
+- AppStore Connect APIを使ってアプリの情報を読み込みます。
 - アプリの審査状態がDiscordに共有されます。
 
 
 # 使い方
 
-## 1. APIをコールするためにはまずトークンを発行します。 
+## 1. APIの発行
 `Key ID` を得るために [App Store Connect](https://appstoreconnect.apple.com/)　に接続します。
 
 1. `ユーザとアクセス`をクリックし、 `キー`のタブをクリックします。 
