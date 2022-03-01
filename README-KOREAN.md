@@ -2,7 +2,7 @@
 🇯🇵[日本語](./README-JAPANESE.md)
 
 # 소개 
-`app-status-bot` 은 앱스토어에 올라가 있는 나의 앱 심사 상태를 가져와 디스코드로 전송해주는 알림봇 입니다. 접근 권한이 없는 팀원들에게 앱의 심사 상태를 공유하고 싶을때 사용하시면 되겠습니다. `GitHub-Actions`와 `GitHub-Gist`를 사용하였으며 fastlane 의 [Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship) 라이브러리의 도움을 받았습니다. 사용하시려면 해당 레포지토리를 `Fork` 하시면 됩니다.  
+`app-status-bot` 은 앱스토어에 올라가 있는 나의 앱 심사 상태를 가져와 `디스코드`로 전송해주는 알림봇 입니다. 접근 권한이 없는 팀원들에게 앱의 심사 상태를 공유하고 싶을때 사용하시면 되겠습니다. GitHub-Actions와 GitHub-Gist를 사용하였으며 fastlane 의 [Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship) 라이브러리의 도움을 받았습니다. 사용하시려면 해당 레포지토리를 `Fork` 하시면 됩니다.  
 
 
 # 기능
@@ -12,7 +12,7 @@
 
 # 사용법
 
-## 1. API를 호출하기 위해서는 토큰을 먼저 생성합니다. 
+## 1. API 토큰 생성 
 `Key ID` 를 얻기 위해서는 먼저 [App Store Connect](https://appstoreconnect.apple.com/) 에 접속합니다.
 
 1. `사용자 및 액세스`를 선택하고, `키` 탭을 선택합니다. 
@@ -25,9 +25,9 @@
 7. `디스코드 웹훅 url`을 발급받습니다.
 8. `깃허브 토큰`을 발급받습니다.
 9. 앱 정보를 저장할 `Gist의 url`을 복사해 둡니다.
-10. 해당 레포지토리를 Fork 합니다.
-11. Settings 메뉴에서 Secrets를 설정합니다.
-12. Actions 메뉴에서 workflow를 활성화합니다. 
+10. 해당 레포지토리를 `Fork` 합니다.
+11. `Settings` 메뉴에서 `Secrets`를 설정합니다.
+12. `Actions` 메뉴에서 workflow를 활성화합니다. 
 
 
 ## 2. Secrets 설정하기
