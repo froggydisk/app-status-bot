@@ -1,5 +1,5 @@
-🇰🇷[한국어](./README-KOREAN.md)   
-🇺🇸[English](./README.md)
+🇰🇷 [한국어](./README-KOREAN.md)   
+🇺🇸 [English](./README.md)
 
 # 初めに
 `app-status-bot`はアプリの審査状態を`Discord`で知らせてくれるボットです。アプリの審査状態をチームメンバーと共有することができます。GitHub-ActionsとGitHub-Gistを使い、fastlaneの[Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship)ライブラリを用いてます。ご利用の時はこのリポジトリをただ`Fork`すればオッケーです。
