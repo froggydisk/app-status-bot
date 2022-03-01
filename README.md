@@ -52,7 +52,7 @@ To get your Key ID, copy it from App Store Connect by logging in to [App Store C
 In `fetch.yml`, you can change langauge and fetch schedule. The default time cycle is 1 hour. 
 
 # Sample
-![sample](https://github.com/froggydisk/app-store-bot/blob/main/.github/images/discord-noti.png?raw=true)
+<img src="https://github.com/froggydisk/froggydisk.github.io/blob/master/assets/img/discord-noti.png?raw=true" width="600">  
 
 # References
 
