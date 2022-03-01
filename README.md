@@ -2,7 +2,7 @@
 [日本語で読む](./README-JAPANESE.md)
 
 # Introduction
-This is a simple bot that fetches your app status directly from `App Store Connect` and post changes on `Discord` by using GitHub-Actions and GitHub-Gist, with the help of fastlane [Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship).
+This is a simple bot that fetches your `app status` directly from Appstore Connect and post changes on `Discord` by using GitHub-Actions and GitHub-Gist, with the help of fastlane [Spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship).
 Just `FORK` this repository for easy use.
 
 
