@@ -12,25 +12,25 @@ Just `FORK` this repository for easy use.
 
 # Usage
 
-## 1. Generating Tokens for API Requests 
+## 1. Generate Tokens for API Requests 
 To get your Key ID, copy it from App Store Connect by logging in to [App Store Connect](https://appstoreconnect.apple.com/), then: 
 
-1. Select Users and Access, then select the API Keys tab. 
+1. Select `Users and Access`, then select the `API Keys` tab. 
 2. Generate API Keys (only for main account)
-3. Click Copy Key ID and paste it. 
-4. Click Copy Issuer ID and paste it.
-5. Download the newly created API Key file (.p8)
+3. Click Copy `Key ID` and paste it. 
+4. Click Copy `Issuer ID` and paste it.
+5. Download the newly created `API Key file (.p8)`
   > ⚠️ This file cannot be downloaded again after the page has been refreshed
 
-6. Find the bundle ID of your app and paste it. 
-7. Generate Discord Webhook url. 
-8. Generate GitHub token.
-9. Get your Gist url.
-10. Fork this repository.
+6. Find the `bundle ID` of your app and paste it. 
+7. Generate `Discord Webhook url`. 
+8. Generate `GitHub token`.
+9. Get your `Gist url`.
+10. `Fork` this repository.
 11. Input Secrets in `Settings` tab.
 12. Enable the workflow in `Actions` tab.
 
-## 2. Setting Secrets with your keys.
+## 2. Set Secrets with your keys.
 
 - Go to Settings - Secrets - Actions - New Repository Secret
 - Please register one by one.  
@@ -51,7 +51,7 @@ To get your Key ID, copy it from App Store Connect by logging in to [App Store C
 
 - [fetch.yml](./.github/workflows/fetch.yml) 
 
-In `fetch.yml` file, you can change langauge and fetch schedule. The default time cycle is 1 hour. 
+In `fetch.yml`, you can change langauge and fetch schedule. The default time cycle is 1 hour. 
 
 
 # References
