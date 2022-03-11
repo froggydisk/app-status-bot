@@ -8,22 +8,23 @@ const fs = require('fs');
 const env = Object.create(process.env);
 const octokit = new Octokit({ auth: `token ${process.env.GH_TOKEN}`});
 
-getGist();
+async function main() {
+    await getGist();
+    exec('ruby Sources/fetch_app_status.rb', {env : env}, function (err, stdout, stderr) {
 
-exec('ruby Sources/fetch_app_status.rb', {env : env}, function (err, stdout, stderr) {
-
-    if (stdout) {
-        var apps = JSON.parse(stdout);
-        console.log(apps);        
-        for(let app of apps) {
-            checkVersion(app);
+        if (stdout) {
+            var apps = JSON.parse(stdout);
+            console.log(apps);        
+            for(let app of apps) {
+                checkVersion(app);
+            }
         }
-    }
-    else {
-        console.log("There was a problem fetching the status of the app!");
-        console.log(stderr);
-    }
-});
+        else {
+            console.log("There was a problem fetching the status of the app!");
+            console.log(stderr);
+        }
+    });
+}
 
 function checkVersion(app) {
 
@@ -93,3 +94,5 @@ async function updateGist(content) {
         },
       });
 }
+
+main();
