@@ -66,7 +66,7 @@ async function getGist() {
         url: rawdataURL
     };
 
-    await request.get(options, function(error, response, body){
+    request.get(options, function(error, response, body){
         console.log(body);
         fs.writeFile('store.db', body, function(error){
             if(error) {
